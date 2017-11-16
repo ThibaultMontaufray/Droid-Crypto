@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Droid_cryptographie
+namespace Droid_Cryptographie
 {
     public partial class Login : Form
     {

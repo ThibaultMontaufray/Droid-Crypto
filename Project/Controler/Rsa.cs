@@ -1,4 +1,4 @@
-﻿namespace Droid_cryptographie
+﻿namespace Droid_Cryptographie
 {
     using System;
     using System.Data.SqlClient;

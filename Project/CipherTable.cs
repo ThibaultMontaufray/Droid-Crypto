@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace Droid_cryptographie
+namespace Droid_Cryptographie
 {
     public class CipherTable
     {

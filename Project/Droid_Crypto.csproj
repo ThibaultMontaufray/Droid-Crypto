@@ -10,14 +10,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Droid_Cryptographie</RootNamespace>
     <AssemblyName>Droid_Cryptographie</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <Prefer32Bit>false</Prefer32Bit>
-    <OutputPath>lib\4.0\</OutputPath>
+    <OutputPath>lib\4.5.1\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -53,6 +53,7 @@
     <Compile Include="Controler\Cryptographie.cs" />
     <Compile Include="Controler\KeyFrequence.cs" />
     <Compile Include="Controler\Rsa.cs" />
+    <Compile Include="Controler\Token.cs" />
     <Compile Include="View\CryptoGUI.cs">
       <SubType>Form</SubType>
     </Compile>

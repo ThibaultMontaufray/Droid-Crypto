@@ -1,4 +1,4 @@
-﻿namespace Droid_cryptographie
+﻿namespace Droid_Cryptographie
 {
     partial class Login
     {
@@ -32,7 +32,7 @@
             this.checkBoxLearnMode = new System.Windows.Forms.CheckBox();
             this.buttonPost = new System.Windows.Forms.Button();
             this.labelResult = new System.Windows.Forms.Label();
-            this.textBoxKeyFrequenceDetection1 = new Droid_cryptographie.TextBoxKeyFrequenceDetection();
+            this.textBoxKeyFrequenceDetection1 = new TextBoxKeyFrequenceDetection();
             this.SuspendLayout();
             // 
             // labelLogin

@@ -1,4 +1,4 @@
-﻿namespace Droid_cryptographie
+﻿namespace Droid_Cryptographie
 {
     public class KeyGen
     {

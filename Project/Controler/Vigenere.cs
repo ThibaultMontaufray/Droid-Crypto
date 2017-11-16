@@ -6,7 +6,7 @@
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
-namespace Droid_cryptographie
+namespace Droid_Cryptographie
 {
     using System;
     using System.Linq;

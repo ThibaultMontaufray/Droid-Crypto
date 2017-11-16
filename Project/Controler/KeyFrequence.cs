@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Droid_cryptographie
+namespace Droid_Cryptographie
 {
     public delegate void KeyFrequenceEventHandler(string message=null);
+
+    [Serializable]
     public class KeyFrequence
     {
         #region Struct

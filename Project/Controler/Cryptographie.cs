@@ -8,7 +8,7 @@
  */
 using System;
 
-namespace Droid_cryptographie
+namespace Droid_Cryptographie
 {
 	/// <summary>
 	/// Description of Crypto.

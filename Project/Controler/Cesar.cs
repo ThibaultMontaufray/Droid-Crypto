@@ -9,7 +9,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Droid_Cryptographie
+namespace Droid.Cryptographie
 {
 	/// <summary>
 	/// Description of Cesar.

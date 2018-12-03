@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Droid_Cryptographie
+namespace Droid.Cryptographie
 {
     public delegate void KeyFrequenceEventHandler(string message=null);
 

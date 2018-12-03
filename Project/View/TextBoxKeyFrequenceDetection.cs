@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Droid_Cryptographie
+namespace Droid.Cryptographie
 {
     public delegate void TextBoxKeyFrequenceDetectionEventHandler(object o);
 
@@ -13,6 +13,7 @@ namespace Droid_Cryptographie
 
         private KeyFrequence _keyFrequence = null;
         private string _currentText = string.Empty;
+        private bool _reinit;
         #endregion
 
         #region Properties
@@ -33,9 +34,10 @@ namespace Droid_Cryptographie
                 _keyFrequence = value;
             }
         }
-        public string CurrentText
+        public override string Text
         {
             get { return _currentText; }
+            set { base.Text = value; }
         }
         #endregion
 
@@ -49,7 +51,7 @@ namespace Droid_Cryptographie
             Init(learning);
         }
         #endregion
-
+         
         #region Methods public
         public void ValidateText()
         {
@@ -63,6 +65,7 @@ namespace Droid_Cryptographie
         #region Methods private
         private void Init(bool learning)
         {
+            _reinit = false;
             _currentText = string.Empty;
             _keyFrequence = new KeyFrequence(learning);
             KeyPress += TextBoxKeyFrequenceDetection_KeyPress;
@@ -73,11 +76,16 @@ namespace Droid_Cryptographie
         private void TextBoxKeyFrequenceDetection_KeyPress(object sender, KeyPressEventArgs e)
         {
             _keyFrequence.AddKey(e.KeyChar);
-            _currentText = this.Text;
             if (e.KeyChar == '\r' || e.KeyChar == '\n')
             {
                 if (TextSend != null) TextSend(_currentText);
                 this.Text = string.Empty;
+                _reinit = true;
+            }
+            else if (e.KeyChar != '\b')
+            {
+                if (_reinit) { _currentText = string.Empty; _reinit = false; }
+                _currentText += e.KeyChar;
             }
         }
         private void buttonPost_Click(object sender, EventArgs e)

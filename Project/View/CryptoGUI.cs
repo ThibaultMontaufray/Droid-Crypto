@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Droid_Cryptographie
+namespace Droid.Cryptographie
 {
 	/// <summary>
 	/// Description of IHM.

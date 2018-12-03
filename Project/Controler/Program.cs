@@ -1,5 +1,6 @@
-﻿namespace Droid_Cryptographie
+﻿namespace Droid.Cryptographie
 {
+    using Droid.Cryptographie.View;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -18,7 +19,8 @@
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            //Application.Run(new Login());
+            Application.Run(new HiddenPassword());
 
             //ServiceBase[] ServicesToRun;
             //ServicesToRun = new ServiceBase[]

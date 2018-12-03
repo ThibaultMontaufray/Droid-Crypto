@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Droid_Cryptographie
+namespace Droid.Cryptographie
 {
     public static class Token
     {

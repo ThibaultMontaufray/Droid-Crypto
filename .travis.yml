@@ -1,5 +1,8 @@
 language: csharp
 solution: Project/Droid.Crypto.sln
 mono: latest
+script:
+  - "python -m unittest discover -s tests"
+  - "coverage run --omit=*.virtualenvs*,*virtualenv* -m unittest discover tests"
 notifications:
   email: false

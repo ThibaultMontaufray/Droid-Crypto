@@ -1,5 +1,5 @@
 language: csharp
-solution: Droid.Crypto.sln
+solution: Project/Droid.Crypto.sln
 mono: latest
 notifications:
   email: false

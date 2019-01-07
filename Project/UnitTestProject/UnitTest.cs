@@ -1,4 +1,4 @@
-using Droid.Cryptographie;
+using Droid.Crypto;
 using NUnit.Framework;
 using System;
 

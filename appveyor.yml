@@ -1,6 +1,10 @@
 version: 1.0.{build}
 skip_tags: true
 configuration: Debug
+notifications:
+  - provider: GitHubPullRequest
+    auth_token:
+      secure: 8yeq7723kr21e2tj
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'

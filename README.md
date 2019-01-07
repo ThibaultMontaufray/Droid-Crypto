@@ -1,4 +1,4 @@
-# Manager Crypto [![Official Site](https://img.shields.io/badge/site-servodroid.com-orange.svg)](http://servodroid.com)
+# Droid Crypto [![Official Site](https://img.shields.io/badge/site-servodroid.com-orange.svg)](http://servodroid.com)
 
 Parsing all sentenses with vocabulary and times. XML file with almost french words. You can add your own Crypto to have your words.
 

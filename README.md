@@ -5,7 +5,7 @@ Parsing all sentenses with vocabulary and times. XML file with almost french wor
 [![Version Status](https://img.shields.io/nuget/v/Droid_cryptography.svg)](https://www.nuget.org/packages/Droid_Crypto/)
 [![License](https://img.shields.io/github/license/brandondahler/Data.HashFunction.svg)](https://raw.githubusercontent.com/ThibaultMontaufray/Tools4Libraries/master/License)
 [![Build Status](https://travis-ci.org/ThibaultMontaufray/Droid-Crypto.svg?branch=master)](https://travis-ci.org/ThibaultMontaufray/Droid-Crypto) 
-[![Build status](https://ci.appveyor.com/api/projects/status/8ay5ae7x6bpn2v4e?svg=true)](https://ci.appveyor.com/project/ThibaultMontaufray/Droid-Crypto)
+[![Build status](https://ci.appveyor.com/api/projects/status/8yeq7723kr21e2tj?svg=true)](https://ci.appveyor.com/project/ThibaultMontaufray/droid-crypto)
 [![Coverage Status](https://coveralls.io/repos/github/ThibaultMontaufray/Droid-Crypto/badge.svg?branch=master)](https://coveralls.io/github/ThibaultMontaufray/Droid-Crypto?branch=master)
 
 # Incoming

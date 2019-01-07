@@ -6,3 +6,5 @@ script:
   - "coverage run --omit=*.virtualenvs*,*virtualenv* -m unittest discover tests"
 notifications:
   email: false
+after_success:  
+  coveralls  

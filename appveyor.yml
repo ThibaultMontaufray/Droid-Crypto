@@ -11,9 +11,9 @@ environment:
   COVERALLS_REPO_TOKEN:
     secure: QHCDZSOemi9uiompTFaN/LKeARmCLIhS3UL//Ug5/H4wBhaV1o0Q3jCX4YsaT1lq
 before_build:
-  - nuget restore Droid_Crypto.sln
+  - nuget restore Droid.Crypto.sln
 build:
-  project: .\Droid_Crypto.sln
+  project: .\Droid.Crypto.sln
   verbosity: minimal
 test_script:
 - ps: >-

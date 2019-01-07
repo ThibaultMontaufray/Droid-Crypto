@@ -13,7 +13,7 @@ environment:
 before_build:
   - nuget restore Droid.Crypto.sln
 build:
-  project: .\Droid.Crypto.sln
+  project: .\Project\Droid.Crypto.sln
   verbosity: minimal
 test_script:
 - ps: >-

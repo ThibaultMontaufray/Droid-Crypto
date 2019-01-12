@@ -15,4 +15,3 @@ This library is waiting for cleanning. Some class are missing here to be more ro
  - interfaces
  - usuals encryptions
  - usage examples
-
